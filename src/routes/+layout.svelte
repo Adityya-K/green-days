@@ -15,7 +15,7 @@
 	<h1 class="h1">Green Days</h1>
 	<svelte:fragment slot="trail">
 		<ul class="links">
-			<li><a href="/"> Home </a></li>
+			<li><a href="/"> Current Weather </a></li>
 			<li><a href="/tasks"> Daily Tasks </a></li>
 		</ul>
 	</svelte:fragment>
