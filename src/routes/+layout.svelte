@@ -10,7 +10,7 @@
 
 <AppBar>
 	<svelte:fragment slot="lead">
-		<img width="50px" height="50px" src="src/logo.png" />
+		<img alt="logo" width="50px" height="50px" src="src/logo.png" />
 	</svelte:fragment>
 	<h1 class="h1">Green Days</h1>
 	<svelte:fragment slot="trail">
@@ -29,9 +29,5 @@
 
 	li {
 		padding-left: 15px;
-	}
-
-	.image {
-		height: 20%;
 	}
 </style>
