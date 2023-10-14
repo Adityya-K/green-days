@@ -1,0 +1,142 @@
+{
+  "0": {
+    "Meaning": "Clear",
+    "Suggestions": "Turn off lights/electronics when not in use",
+    "": "Walk or bike instead of driving"
+  },
+  "1": {
+    "Meaning": "Mainly Clear",
+    "Suggestions": "Turn off lights/electronics when not in use",
+    "": "Walk or bike instead of driving"
+  },
+  "2": {
+    "Meaning": "Partly Cloudy",
+    "Suggestions": "Cook sustainable meals",
+    "": ""
+  },
+  "3": {
+    "Meaning": "Overcast",
+    "Suggestions": "Cook sustainable meals",
+    "": ""
+  },
+  "45": {
+    "Meaning": "Fog",
+    "Suggestions": "Reduce water usage",
+    "": ""
+  },
+  "48": {
+    "Meaning": "Depositing Rime Fog",
+    "Suggestions": "Reduce water usage",
+    "": ""
+  },
+  "51": {
+    "Meaning": "Light Drizzle",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "53": {
+    "Meaning": "Moderate Drizzle",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "55": {
+    "Meaning": "Dense Drizzle",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "56": {
+    "Meaning": "Light Freezing Drizzle",
+    "Suggestions": "Identify leaks in your residence",
+    "": ""
+  },
+  "57": {
+    "Meaning": "Dense Freezing Drizzle",
+    "Suggestions": "Identify leaks in your residence",
+    "": ""
+  },
+  "61": {
+    "Meaning": "Slight Rain",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "63": {
+    "Meaning": "Moderate Rain",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "65": {
+    "Meaning": "Heavy Rain",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "66": {
+    "Meaning": "Light Freezing Rain",
+    "Suggestions": "Identify leaks in your residence",
+    "": ""
+  },
+  "67": {
+    "Meaning": "Heavy Freezing Rain",
+    "Suggestions": "Identify leaks in your residence",
+    "": ""
+  },
+  "71": {
+    "Meaning": "Slight Snowfall",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "73": {
+    "Meaning": "Moderate Snowfall",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "75": {
+    "Meaning": "Heavy Snowfall",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "77": {
+    "Meaning": "Snow Grains",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "80": {
+    "Meaning": "Slight Rain Showers",
+    "Suggestions": "Collect rainwater",
+    "": "Ensure your residence is insulated"
+  },
+  "81": {
+    "Meaning": "Moderate Rain Showers",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "82": {
+    "Meaning": "Violent Rain Showers",
+    "Suggestions": "Collect rainwater",
+    "": ""
+  },
+  "85": {
+    "Meaning": "Slight Snow Showers",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "86": {
+    "Meaning": "Heavy Snow Showers",
+    "Suggestions": "Shovel snow manually",
+    "": "Ensure your residence is insulated"
+  },
+  "95": {
+    "Meaning": "Thunderstorm",
+    "Suggestions": "Cook sustainable meals",
+    "": ""
+  },
+  "96": {
+    "Meaning": "Thunderstorm with Slight Hail",
+    "Suggestions": "Cook sustainable meals",
+    "": ""
+  },
+  "99": {
+    "Meaning": "Thunderstorm with Heavy Hail",
+    "Suggestions": "Cook sustainable meals",
+    "": ""
+  }
+}

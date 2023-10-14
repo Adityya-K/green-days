@@ -1,5 +1,13 @@
 <script>
-	import { Accordion, AccordionItem, RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+	import {
+		Accordion,
+		AccordionItem,
+		RadioGroup,
+		RadioItem,
+		modeCurrent
+	} from '@skeletonlabs/skeleton';
+	import suggestions from '../suggestions.json';
+
 	export let data;
 	let value;
 	$: ({ weatherData } = data);
@@ -78,41 +86,34 @@
 			<svelte:fragment slot="lead">1</svelte:fragment>
 			<svelte:fragment slot="summary">
 				<div class="flex">
-					<h3 class="pt-3 pr-4">Hello</h3>
+					<h3 class="pt-3 pr-4">Suggestion for today!</h3>
 					<RadioGroup>
 						<RadioItem bind:group={value} name="justify" value={0}>Not Done</RadioItem>
 						<RadioItem bind:group={value} name="justify" value={1}>Done</RadioItem>
 					</RadioGroup>
 				</div>
 			</svelte:fragment>
-			<svelte:fragment slot="content">Hallo</svelte:fragment>
-		</AccordionItem>
-		<AccordionItem open>
-			<svelte:fragment slot="lead">1</svelte:fragment>
-			<svelte:fragment slot="summary">
-				<div class="flex">
-					<h3 class="pt-3 pr-4">Hello</h3>
-					<RadioGroup>
-						<RadioItem bind:group={value} name="justify" value={0}>Not Done</RadioItem>
-						<RadioItem bind:group={value} name="justify" value={1}>Done</RadioItem>
-					</RadioGroup>
-				</div>
+			<svelte:fragment slot="content">
+				{suggestions[weatherData.current.weathercode].Suggestions}
 			</svelte:fragment>
-			<svelte:fragment slot="content">Hallo</svelte:fragment>
 		</AccordionItem>
-		<AccordionItem open>
-			<svelte:fragment slot="lead">1</svelte:fragment>
-			<svelte:fragment slot="summary">
-				<div class="flex">
-					<h3 class="pt-3 pr-4">Hello</h3>
-					<RadioGroup>
-						<RadioItem bind:group={value} name="justify" value={0}>Not Done</RadioItem>
-						<RadioItem bind:group={value} name="justify" value={1}>Done</RadioItem>
-					</RadioGroup>
-				</div>
-			</svelte:fragment>
-			<svelte:fragment slot="content">Hallo</svelte:fragment>
-		</AccordionItem>
+		{#if typeof suggestions[weatherData.current.weathercode['']] !== 'undefined'}
+			<AccordionItem open>
+				<svelte:fragment slot="lead">2</svelte:fragment>
+				<svelte:fragment slot="summary">
+					<div class="flex">
+						<h3 class="pt-3 pr-4">Hello</h3>
+						<RadioGroup>
+							<RadioItem bind:group={value} name="justify" value={0}>Not Done</RadioItem>
+							<RadioItem bind:group={value} name="justify" value={1}>Done</RadioItem>
+						</RadioGroup>
+					</div>
+				</svelte:fragment>
+				<svelte:fragment slot="content">
+					{suggestions[weatherData.current.weathercode['']]}
+				</svelte:fragment>
+			</AccordionItem>
+		{/if}
 	</Accordion>
 </div>
 
