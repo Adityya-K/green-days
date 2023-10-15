@@ -234,7 +234,13 @@
 			<p>You've officially made today green!</p>
 		</div>
 		<!-- Actions -->
-		<button type="button" class="btn variant-filled" on:click={exec}>OK</button>
+		<button type="button" class="btn-icon variant-filled" on:click={exec}>
+			<img
+				src="https://cdn0.iconfinder.com/data/icons/octicons/1024/x-512.png"
+				alt="close button"
+				class="close-button"
+			/>
+		</button>
 	</aside>
 {/if}
 
@@ -258,15 +264,18 @@
 		margin-right: auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		max-width: 30%;
+		max-width: 50%;
 	}
 
 	.congrat-icon {
 		max-width: 60px;
 	}
 
+	.close-button {
+		max-width: 20px;
+	}
+
 	button:active {
 		background-color: #71c174;
 	}
-
 </style>
