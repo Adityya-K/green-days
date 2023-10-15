@@ -4,7 +4,7 @@
 
 	export let data;
 	let value1 = 0;
-	let value2 = 2;
+	let value2 = 0;
 	$: ({ weatherData } = data);
 </script>
 
@@ -196,25 +196,36 @@
 				{suggestions[weatherData.current.weathercode].Suggestions}
 			</svelte:fragment>
 		</AccordionItem>
-		{#if typeof suggestions[weatherData.current.weathercode['']] !== 'undefined'}
-			<AccordionItem open>
-				<svelte:fragment slot="lead">2</svelte:fragment>
-				<svelte:fragment slot="summary">
-					<div class="flex">
-						<h3 class="pt-3 pr-4">Hello</h3>
-						<RadioGroup>
-							<RadioItem bind:group={value2} name="justify" value={0}>Not Done</RadioItem>
-							<RadioItem bind:group={value2} name="justify" value={1}>Done</RadioItem>
-						</RadioGroup>
-					</div>
-				</svelte:fragment>
-				<svelte:fragment slot="content">
-					{suggestions[weatherData.current.weathercode['']]}
-				</svelte:fragment>
-			</AccordionItem>
-		{/if}
+		<AccordionItem open>
+			<svelte:fragment slot="lead">2</svelte:fragment>
+			<svelte:fragment slot="summary">
+				<div class="flex">
+					<h3 class="pt-3 pr-4">Hello</h3>
+					<RadioGroup>
+						<RadioItem bind:group={value2} name="justify" value={0}>Not Done</RadioItem>
+						<RadioItem bind:group={value2} name="justify" value={1}>Done</RadioItem>
+					</RadioGroup>
+				</div>
+			</svelte:fragment>
+			<svelte:fragment slot="content">
+				{suggestions[weatherData.current.weathercode['']]}
+			</svelte:fragment>
+		</AccordionItem>
 	</Accordion>
 </div>
+{#if value1 === 1 && value2 === 1}
+	<aside class="alert variant-filled-error fixed bottom-0 left-0 w-screen">
+		<!-- Icon -->
+		<div>(icon)</div>
+		<!-- Message -->
+		<div class="alert-message">
+			<h3 class="h3">(title)</h3>
+			<p>Hallo</p>
+		</div>
+		<!-- Actions -->
+		<div class="alert-actions">Heh</div>
+	</aside>
+{/if}
 
 <style>
 	h1 {
