@@ -219,7 +219,7 @@
 	</Accordion>
 </div>
 {#if value1 === 1 && value2 === 1}
-	<aside class="alert variant-filled-error fixed bottom-0 left-0 w-screen">
+	<aside class="alert variant-filled fixed bottom-0 left-0 w-screen">
 		<!-- Icon -->
 		<div>
 			<img
@@ -234,14 +234,14 @@
 			<p>You've officially made today green!</p>
 		</div>
 		<!-- Actions -->
-		<button type="button" class="btn variant-filled" on:click={exec}>md</button>
+		<button type="button" class="btn variant-filled" on:click={exec}>OK</button>
 	</aside>
 {/if}
 
 <style>
 	h1 {
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		font-size: 15px;
+		font-size: 30px;
 	}
 
 	.center {
@@ -264,4 +264,9 @@
 	.congrat-icon {
 		max-width: 60px;
 	}
+
+	button:active {
+		background-color: #71c174;
+	}
+
 </style>
