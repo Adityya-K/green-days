@@ -175,9 +175,10 @@
 	{:else}
 		<h2>Weather Condition Not Found</h2>
 	{/if}
+	<br>
+	<h2>Latitude: {weatherData.latitude}</h2>
+	<br>
 	<h2>Longitude: {weatherData.longitude}</h2>
-	<h2>Cloud Cover: {weatherData.current.cloudcover}</h2>
-	<h2>Rain: {weatherData.current.rain}</h2>
 </div>
 <div class="m-20">
 	<Accordion autocollapse>
@@ -216,14 +217,18 @@
 {#if value1 === 1 && value2 === 1}
 	<aside class="alert variant-filled-error fixed bottom-0 left-0 w-screen">
 		<!-- Icon -->
-		<div>(icon)</div>
+		<div><img
+			class="congrat-icon"
+			src="https://cdn-icons-png.flaticon.com/512/7963/7963920.png"
+			alt="icon"
+		/></div>
 		<!-- Message -->
 		<div class="alert-message">
-			<h3 class="h3">(title)</h3>
-			<p>Hallo</p>
+			<h3 class="h3">Congratulations!</h3>
+			<p>You've officially made today green!</p>
 		</div>
 		<!-- Actions -->
-		<div class="alert-actions">Heh</div>
+		<div class="alert-actions">X</div>
 	</aside>
 {/if}
 
@@ -241,8 +246,16 @@
 	}
 
 	img {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		max-width: 200px;
+		max-width: 100%;
+	}
+
+	.congrat-icon {
+		max-width: 60px;
 	}
 </style>
