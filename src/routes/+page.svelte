@@ -198,14 +198,14 @@
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="content">
-				{suggestions[weatherData.current.weathercode].Suggestions}
+				{suggestions[weatherData.current.weathercode].suggestion1}
 			</svelte:fragment>
 		</AccordionItem>
 		<AccordionItem open>
 			<svelte:fragment slot="lead">2</svelte:fragment>
 			<svelte:fragment slot="summary">
 				<div class="flex">
-					<h3 class="pt-3 pr-4">Suggestion 2!</h3>
+					<h3 class="pt-3 pr-4">Another Suggestion for Today!</h3>
 					<RadioGroup>
 						<RadioItem bind:group={value2} name="justify" value={0}>Not Done</RadioItem>
 						<RadioItem bind:group={value2} name="justify" value={1}>Done</RadioItem>
@@ -213,7 +213,7 @@
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="content">
-				{suggestions[weatherData.current.weathercode['']]}
+				{suggestions[weatherData.current.weathercode].suggestion2}
 			</svelte:fragment>
 		</AccordionItem>
 	</Accordion>
