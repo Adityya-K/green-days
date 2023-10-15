@@ -190,7 +190,7 @@
 			<svelte:fragment slot="lead">1</svelte:fragment>
 			<svelte:fragment slot="summary">
 				<div class="flex">
-					<h3 class="pt-3 pr-4">Suggestion for today!</h3>
+					<h3 class="pt-3 pr-4">Suggestion for Today!</h3>
 					<RadioGroup>
 						<RadioItem bind:group={value1} name="justify" value={0}>Not Done</RadioItem>
 						<RadioItem bind:group={value1} name="justify" value={1}>Done</RadioItem>
