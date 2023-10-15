@@ -10,7 +10,12 @@
 
 <AppBar>
 	<svelte:fragment slot="lead">
-		<img alt="logo" width="50px" height="50px" src="src/logo.png" />
+		<img
+			alt="logo"
+			width="50px"
+			height="50px"
+			src="http://drive.google.com/uc?export=view&id=12LN8NZkXhStRtbpQoI4lmqXWA16Az4ml"
+		/>
 	</svelte:fragment>
 	<h1 class="h1">Green Days</h1>
 	<svelte:fragment slot="trail">
