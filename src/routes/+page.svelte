@@ -6,6 +6,10 @@
 	let value1 = 0;
 	let value2 = 0;
 	$: ({ weatherData } = data);
+	function exec() {
+		value1 = 0;
+		value2 = 0;
+	}
 </script>
 
 <div class="center pt-20">
@@ -175,9 +179,9 @@
 	{:else}
 		<h2>Weather Condition Not Found</h2>
 	{/if}
-	<br>
+	<br />
 	<h2>Latitude: {weatherData.latitude}</h2>
-	<br>
+	<br />
 	<h2>Longitude: {weatherData.longitude}</h2>
 </div>
 <div class="m-20">
@@ -201,7 +205,7 @@
 			<svelte:fragment slot="lead">2</svelte:fragment>
 			<svelte:fragment slot="summary">
 				<div class="flex">
-					<h3 class="pt-3 pr-4">Hello</h3>
+					<h3 class="pt-3 pr-4">Suggestion 2!</h3>
 					<RadioGroup>
 						<RadioItem bind:group={value2} name="justify" value={0}>Not Done</RadioItem>
 						<RadioItem bind:group={value2} name="justify" value={1}>Done</RadioItem>
@@ -217,25 +221,27 @@
 {#if value1 === 1 && value2 === 1}
 	<aside class="alert variant-filled-error fixed bottom-0 left-0 w-screen">
 		<!-- Icon -->
-		<div><img
-			class="congrat-icon"
-			src="https://cdn-icons-png.flaticon.com/512/7963/7963920.png"
-			alt="icon"
-		/></div>
+		<div>
+			<img
+				class="congrat-icon"
+				src="https://cdn-icons-png.flaticon.com/512/7963/7963920.png"
+				alt="icon"
+			/>
+		</div>
 		<!-- Message -->
 		<div class="alert-message">
 			<h3 class="h3">Congratulations!</h3>
 			<p>You've officially made today green!</p>
 		</div>
 		<!-- Actions -->
-		<div class="alert-actions">X</div>
+		<button type="button" class="btn variant-filled" on:click={exec}>md</button>
 	</aside>
 {/if}
 
 <style>
 	h1 {
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		font-size: 30px;
+		font-size: 15px;
 	}
 
 	.center {
@@ -252,7 +258,7 @@
 		margin-right: auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		max-width: 100%;
+		max-width: 30%;
 	}
 
 	.congrat-icon {
