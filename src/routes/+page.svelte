@@ -6,7 +6,6 @@
 	let value1 = 0;
 	let value2 = 2;
 	$: ({ weatherData } = data);
-	console.log(completed);
 </script>
 
 <div class="center pt-20">
