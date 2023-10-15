@@ -1,142 +1,142 @@
 {
   "0": {
     "Meaning": "Clear",
-    "Suggestions": "Turn off lights/electronics when not in use",
-    "": "Walk or bike instead of driving"
+    "suggestion1": "Turn off lights/electronics when not in use",
+    "suggestion2": "Walk or bike instead of driving"
   },
   "1": {
     "Meaning": "Mainly Clear",
-    "Suggestions": "Turn off lights/electronics when not in use",
-    "": "Walk or bike instead of driving"
+    "suggestion1": "Turn off lights/electronics when not in use",
+    "suggestion2": "Walk or bike instead of driving"
   },
   "2": {
     "Meaning": "Partly Cloudy",
-    "Suggestions": "Cook sustainable meals",
-    "": ""
+    "suggestion1": "Cook sustainable meals",
+    "suggestion2": "Go to a local shop!"
   },
   "3": {
     "Meaning": "Overcast",
-    "Suggestions": "Cook sustainable meals",
-    "": ""
+    "suggestion1": "Cook sustainable meals",
+    "suggestion2": "Go to a local shop!"
   },
   "45": {
     "Meaning": "Fog",
-    "Suggestions": "Reduce water usage",
-    "": ""
+    "suggestion1": "Reduce water usage",
+    "suggestion2": "Take care of some indoor plants"
   },
   "48": {
     "Meaning": "Depositing Rime Fog",
-    "Suggestions": "Reduce water usage",
-    "": ""
+    "suggestion1": "Reduce water usage",
+    "suggestion2": "Take care of some indoor plants"
   },
   "51": {
     "Meaning": "Light Drizzle",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Identify something that needs to be built and see if you can DIY!"
   },
   "53": {
     "Meaning": "Moderate Drizzle",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Identify something that needs to be built and see if you can DIY!"
   },
   "55": {
     "Meaning": "Dense Drizzle",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Identify something that needs to be built and see if you can DIY!"
   },
   "56": {
     "Meaning": "Light Freezing Drizzle",
-    "Suggestions": "Identify leaks in your residence",
-    "": ""
+    "suggestion1": "Identify leaks in your residence",
+    "suggestion2": "Clean your ducts!"
   },
   "57": {
     "Meaning": "Dense Freezing Drizzle",
-    "Suggestions": "Identify leaks in your residence",
-    "": ""
+    "suggestion1": "Identify leaks in your residence",
+    "suggestion2": "Clean your ducts!"
   },
   "61": {
     "Meaning": "Slight Rain",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Read a book"
   },
   "63": {
     "Meaning": "Moderate Rain",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Read a book"
   },
   "65": {
     "Meaning": "Heavy Rain",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Read a book"
   },
   "66": {
     "Meaning": "Light Freezing Rain",
-    "Suggestions": "Identify leaks in your residence",
-    "": ""
+    "suggestion1": "Identify leaks in your residence",
+    "suggestion2": "Identify wasteful practices and think of sustainable alternatives"
   },
   "67": {
     "Meaning": "Heavy Freezing Rain",
-    "Suggestions": "Identify leaks in your residence",
-    "": ""
+    "suggestion1": "Identify leaks in your residence",
+    "suggestion2": "Identify wasteful practices and think of sustainable alternatives"
   },
   "71": {
     "Meaning": "Slight Snowfall",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "73": {
     "Meaning": "Moderate Snowfall",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "75": {
     "Meaning": "Heavy Snowfall",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "77": {
     "Meaning": "Snow Grains",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "80": {
     "Meaning": "Slight Rain Showers",
-    "Suggestions": "Collect rainwater",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "81": {
     "Meaning": "Moderate Rain Showers",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Take a 5 minute shower instead of a bath"
   },
   "82": {
     "Meaning": "Violent Rain Showers",
-    "Suggestions": "Collect rainwater",
-    "": ""
+    "suggestion1": "Collect rainwater",
+    "suggestion2": "Take a 5 minute shower instead of a bath"
   },
   "85": {
     "Meaning": "Slight Snow Showers",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "86": {
     "Meaning": "Heavy Snow Showers",
-    "Suggestions": "Shovel snow manually",
-    "": "Ensure your residence is insulated"
+    "suggestion1": "Shovel snow manually",
+    "suggestion2": "Ensure your residence is insulated"
   },
   "95": {
     "Meaning": "Thunderstorm",
-    "Suggestions": "Cook sustainable meals",
-    "": ""
+    "suggestion1": "Cook sustainable meals",
+    "suggestion2": "Read a bit abut the green sciences"
   },
   "96": {
     "Meaning": "Thunderstorm with Slight Hail",
-    "Suggestions": "Cook sustainable meals",
-    "": ""
+    "suggestion1": "Cook sustainable meals",
+    "suggestion2": "Read a bit abut the green sciences"
   },
   "99": {
     "Meaning": "Thunderstorm with Heavy Hail",
-    "Suggestions": "Cook sustainable meals",
-    "": ""
+    "suggestion1": "Cook sustainable meals",
+    "suggestion2": "Read a bit abut the green sciences"
   }
 }
