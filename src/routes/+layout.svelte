@@ -14,10 +14,7 @@
 	</svelte:fragment>
 	<h1 class="h1">Green Days</h1>
 	<svelte:fragment slot="trail">
-		<ul class="links">
-			<li><a href="/"> Current Weather </a></li>
-			<li><a href="/tasks"> Daily Tasks </a></li>
-		</ul>
+		<h2>Congrats on being sustainable!</h2>
 	</svelte:fragment>
 </AppBar>
 <slot />

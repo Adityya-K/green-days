@@ -5,6 +5,7 @@ export const load = async ({ fetch }) => {
         const weatherData = await weatherRes.json()
         return weatherData
     }
+
     return {
        weatherData: fetchWeather(),
     }
